@@ -1,15 +1,15 @@
 #include <iostream>
 
 int main() {
-	int sum = 0;
 	int number = 10;
 
+	std::cout 
+		<< "Printing numbers from 10 to 0 with decrement operator." << std::endl;
+
 	while (number >= 0) {
-		sum += number;
+		std::cout << number << std::endl;
 		--number;
 	}
-
-	std::cout << "The inclusive sum of numbers 10 to 0 is: " << sum << std::endl;
 	
 	return 0;
 }
