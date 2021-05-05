@@ -8,7 +8,7 @@ int main() {
     
     std::cin >> number1 >> number2;
     
-    std::cout << "The product of  " << number1 
+    std::cout << "The product of " << number1 
         << " and " << number2 << " is: " << number1 * number2 << std::endl;
     
     return 0;
