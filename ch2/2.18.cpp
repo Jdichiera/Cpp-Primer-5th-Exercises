@@ -26,7 +26,14 @@ int main() {
 	std::cout << "Value of the variable: " << someValue << std::endl;
 
 	/*
-		Update the value in someValue usng the pointer
+		Update the value in someValue usng the pointer. Note that we are using
+		the dereference operator on the pointer so that we are using the object
+		that the pointer is pointing to and not the address.
+
+		The code below is not valid because we are not using the dereference 
+		operator, so pointerToSomeValue is the memory address and not the object
+		
+		pointerToSomeValue = 5; 
 	*/
 	*pointerToSomeValue = 5;
 	std::cout << "Value after update: " << *pointerToSomeValue << std::endl;
