@@ -1,8 +1,8 @@
 /* 
-	Will not compile. We need to include the semicolon after the closing } in
-	our struct declaration
+	Will not compile without the semicolon after the closing bracket 
+	on our struct declaration.
 */ 
-struct Foo { /* empty */ }
+struct Foo { /* empty */ };
 int main() {
-	return 0
+	return 0;
 }
