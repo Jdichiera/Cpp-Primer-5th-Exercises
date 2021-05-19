@@ -8,6 +8,10 @@ int main() {
 	Sales_item sale4;
 	Sales_item sale5;
 	Sales_item currentSale;
+	/*
+		Initialized to 1 since we are entering in a sales item to match on 
+		before we enter the loop
+	*/
 	int isbn1TransactionCount = 1;
 	int isbn2TransactionCount = 1;
 	int isbn3TransactionCount = 1;
