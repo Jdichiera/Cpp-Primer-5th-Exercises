@@ -13,7 +13,7 @@ int main() {
 	Sales_data sale2;
 
 	std::cout << "Please enter two sales with the " 
-		<< "same ISBN to see the sum of the sale." << std::endl;
+		<< "same ISBN to see the sum of the sale data objects." << std::endl;
 	std::cout << "Sales should be entered in the following " 
 		<< "format: ISBN_Number Units_Sold Unit_Cost" << std::endl;
 
