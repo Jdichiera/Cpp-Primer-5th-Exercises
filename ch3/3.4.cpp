@@ -33,6 +33,11 @@ int main() {
 		std::cout << "The strings have an equal length." << std::endl;
 	} else {
 		std::cout << "The strings do not have an equal length." << std::endl;
+		if (string1.length() > string2.length()) {
+			std::cout << "String1 is longer." << std::endl;
+		} else {
+			std::cout << "String2 is longer." << std::endl;
+		}
 	}
 
 	return 0;
