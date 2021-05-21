@@ -13,7 +13,7 @@ int main() {
 
 	int iterator = 0;
 	while (iterator <= myString1.length()) {
-		myString1[iterator] = toupper(myString1[iterator]);
+		myString1[iterator] = 'x';
 		iterator++;
 	}
 
@@ -25,7 +25,7 @@ int main() {
 		Using decltype to detect the type returned by myString.size()
 	*/
 	for (decltype (myString2.size()) i = 0; i < myString2.size(); i++) {
-		myString2[i] = toupper(myString2[i]);
+		myString2[i] = 'x';
 	}
 
 	std::cout << "String 2 after processing: " << myString2 << std::endl;

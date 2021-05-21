@@ -7,7 +7,7 @@ int main() {
 	std::cout << "String before processing: " << myString << std::endl;
 
 	for (auto &letter : myString) {
-		letter = toupper(letter);
+		letter = 'x';
 	}
 
 	std::cout << "String after processing: " << myString << std::endl;

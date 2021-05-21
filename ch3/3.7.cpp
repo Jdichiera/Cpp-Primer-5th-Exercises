@@ -10,8 +10,9 @@ int main() {
 		Will not compile. char is a reserved keyword and cannot be used as 
 		a variable name.
 	*/
+
 	for (auto &char : myString) {
-		char = toupper(letter);
+		char = x;
 	}
 
 	std::cout << "String after processing: " << myString << std::endl;
