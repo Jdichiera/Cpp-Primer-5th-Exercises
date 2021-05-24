@@ -1,3 +1,4 @@
+#include <iostream>
 #include <vector>
 
 int main() {
@@ -13,4 +14,6 @@ int main() {
 	for (int i = 0; i < 10; i++) {
 		v1.push_back(42);
 	}
+
+	return 0;
 }
